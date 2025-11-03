@@ -36,7 +36,9 @@ nors = read.csv("NORS.csv", header=TRUE) %>%
   filter(Noro1*Confirmed1*Set1==1 | Noro2*Confirmed2*Set2==1 |
            Noro3*Confirmed3*Set3==1 | Noro4*Confirmed4*Set4==1 |
            Noro5*Confirmed5*Set5==1 | Noro6*Confirmed6*Set6==1) %>%
-  select(-tail(names(.), 18))
+  select(-tail(names(.), 18)) %>%
+  subset(select = -c(Etiology4, Etiology5, Etiology6, Status4, Status5, Status6,
+                     Setting4, Setting5, Setting6))
 
 write.csv(nors, "NORS_cleaned.csv", row.names=FALSE)
 
