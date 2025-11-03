@@ -520,10 +520,8 @@
 2016,8,"Tennessee","Food","Norovirus Genogroup II",NA,NA,NA,NA,NA,"GII.4 untypeable","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Sit-down dining",8,1,8,0,8,"",Aug 2016
 2016,8,"Oregon","Food","Norovirus Genogroup II","Norovirus Genogroup II",NA,NA,NA,NA,"GII.4 untypeable; GII.4 untypeable","Confirmed","Confirmed",NA,NA,NA,NA,"Restaurant: Sit-down dining",10,0,10,0,10,"",Aug 2016
 2016,8,"Florida","Food","Norovirus Genogroup II",NA,NA,NA,NA,NA,"","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Fast-food (drive up service or pay at counter)",19,0,19,0,19,"Parfait",Aug 2016
-2016,8,"Maine","Food","Astrovirus","Vibrio parahaemolyticus","Vibrio other","Sapovirus","Norovirus other",NA,"","Suspected","Confirmed","Confirmed","Suspected","Suspected",NA,"Restaurant: Sit-down dining",13,1,13,0,13,"lobster",Aug 2016
 2016,9,"Ohio","Food","Norovirus Genogroup II",NA,NA,NA,NA,NA,"other","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Sit-down dining",4,0,2,0,2,"",Sep 2016
 2016,9,"Ohio","Food","Norovirus Genogroup I",NA,NA,NA,NA,NA,"GI.7","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Sit-down dining",6,0,6,0,6,"pickles, deep fried",Sep 2016
-2016,9,"Oregon","Food","Rotavirus","Sapovirus","Norovirus",NA,NA,NA,"","Suspected","Confirmed","Suspected",NA,NA,NA,"Banquet Facility (food prepared and served on-site);Restaurant: Buffet",14,1,13,0,13,"",Sep 2016
 2016,9,"Colorado","Food","Norovirus",NA,NA,NA,NA,NA,"","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Sit-down dining",4,0,4,0,4,"",Sep 2016
 2016,9,"Kansas","Food","Norovirus Genogroup II",NA,NA,NA,NA,NA,"GII.4 Sydney","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Buffet",2,0,2,0,0,"",Sep 2016
 2016,10,"Virginia","Food","Norovirus Genogroup II","Norovirus Genogroup II",NA,NA,NA,NA,"GII.7;unknown","Suspected","Confirmed",NA,NA,NA,NA,"Restaurant: Sit-down dining",11,1,11,0,11,"",Oct 2016
@@ -713,7 +711,6 @@
 2018,12,"Arizona","Food","Norovirus Genogroup II","Norovirus Genogroup II",NA,NA,NA,NA,"unknown;GII.P16 GII.4 Sydney","Confirmed","Suspected",NA,NA,NA,NA,"Restaurant: Sit-down dining",44,0,44,0,44,"",Dec 2018
 2018,12,"California","Food","Norovirus Genogroup I","Norovirus Genogroup I",NA,NA,NA,NA,"GI.P4 GI.5;unknown","Confirmed","Suspected",NA,NA,NA,NA,"Restaurant: Sit-down dining;Private home/residence;Restaurant: Fast-food (drive up service or pay at counter)",65,0,60,0,65,"oysters",Dec 2018
 2018,12,"Colorado","Food","Norovirus unknown","Norovirus Genogroup II",NA,NA,NA,NA,"GII.P16 GII.4 Sydney","Confirmed","Confirmed",NA,NA,NA,NA,"Restaurant: Sit-down dining",7,0,7,0,7,"",Dec 2018
-2018,12,"Multistate","Food","Shigella flexneri","Vibrio parahaemolyticus","Vibrio cholerae","Campylobacter lari","Norovirus Genogroup I","Escherichia coli, Shiga toxin-producing","other;unknown;O157","Confirmed","Confirmed","Suspected","Suspected","Suspected","Suspected","Restaurant: Other",16,2,15,0,15,"raw oysters",Dec 2018
 2018,12,"California","Food","Norovirus unknown",NA,NA,NA,NA,NA,"","Confirmed",NA,NA,NA,NA,NA,"Banquet Facility (food prepared and served on-site);Restaurant: Sit-down dining",38,0,38,0,38,"",Dec 2018
 2019,1,"New York","Food","Norovirus Genogroup II","Norovirus Genogroup II",NA,NA,NA,NA,"","Confirmed","Confirmed",NA,NA,NA,NA,"Restaurant: Sit-down dining",11,0,11,0,11,"",Jan 2019
 2019,1,"Minnesota","Food","Norovirus Genogroup II",NA,NA,NA,NA,NA,"GII.P16 GII.4 Sydney","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Fast-food (drive up service or pay at counter)",9,1,9,0,9,"",Jan 2019
@@ -861,7 +858,6 @@
 2022,3,"South Carolina","Food","Norovirus unknown",NA,NA,NA,NA,NA,"","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Sit-down dining",10,0,10,0,10,"",Mar 2022
 2022,3,"Hawaii","Food","Norovirus Genogroup II","Norovirus Genogroup II",NA,NA,NA,NA,"GII.P12 GII.3;GII.P12 GII.3","Confirmed","Confirmed",NA,NA,NA,NA,"Restaurant: Fast-food (drive up service or pay at counter)",14,0,14,0,14,"pizza, cheese",Mar 2022
 2022,3,"Wisconsin","Food","Norovirus Genogroup II",NA,NA,NA,NA,NA,"GII.P16 GII.4 Sydney","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Sit-down dining",5,1,5,0,5,"",Mar 2022
-2022,3,"Massachusetts","Food","Clostridium perfringens","Norovirus",NA,NA,NA,NA,"","Confirmed","Suspected",NA,NA,NA,NA,"Restaurant: Other",7,0,7,0,7,"",Mar 2022
 2022,3,"Washington","Food","Norovirus Genogroup II","Norovirus Genogroup II","Norovirus Genogroup II",NA,NA,NA,"GII.P12 GII.3;GII.P12 GII.3;unknown","Confirmed","Confirmed","Suspected",NA,NA,NA,"Restaurant: Fast-food (drive up service or pay at counter)",6,0,5,0,5,"Sub sandwiches - Multiple RTE food items",Mar 2022
 2022,3,"New York","Food","Norovirus Genogroup II",NA,NA,NA,NA,NA,"","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Other",10,0,10,0,10,"",Mar 2022
 2022,3,"Illinois","Food","Norovirus Genogroup II",NA,NA,NA,NA,NA,"unknown","Confirmed",NA,NA,NA,NA,NA,"Restaurant: Sit-down dining",25,1,25,0,0,"",Mar 2022
