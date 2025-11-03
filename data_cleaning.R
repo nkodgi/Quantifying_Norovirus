@@ -11,6 +11,7 @@ nors = read.csv("NORS.csv", header=TRUE) %>%
                                "Status5", "Status6"))
 
 tab = data.frame(table(nors$Serotype.or.Genotype))
-counts = data.frame(str_count(nors$Serotype.or.Genotype, ";"))
+counts = data.frame(str_count(nors$Food.Vehicle, ";"))
 
-write.csv(nors, "NORS_cleaned.csv")
+write.csv(nors, "NORS_cleaned.csv", row.names=FALSE)
+
