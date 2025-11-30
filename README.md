@@ -28,11 +28,11 @@ Each policy is tested across different compliance levels to see how much it can 
 
 ## 🚀 Getting Started
 
-### Installation and Running
+### Installation and Running Simulations
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/nkodgi/Quantifying_Norovirus.git
+cd Quantifying_Norovirus
 pip install -r requirements.txt
 cd src
 python3 main.py
