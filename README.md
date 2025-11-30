@@ -1,7 +1,5 @@
 # 🍽️ Norovirus Restaurant Outbreak Modeling
 
-> Simulating real outbreaks, validating with data, and testing what actually works.
-
 ## Overview
 
 This project explores how norovirus spreads inside a restaurant using a stochastic simulation model built to feel as close to real life as possible. We use real outbreak sizes from the CDC's NORS database and validate our model through K-fold cross-validation and full-dataset calibration. This helps us make sure our simulated outbreaks truly reflect ground-truth behavior before testing any interventions.
@@ -46,7 +44,7 @@ python3 main.py
 .
 ├── README.md
 ├── requirements.txt
-├── DOC/
+├── doc/
 │   ├── poster.pdf
 │   └── Final_Report.pdf
 ├── src/
