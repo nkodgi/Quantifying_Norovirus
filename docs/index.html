@@ -1,133 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantifying Norovirus Intervention Impact in Restaurant Outbreaks</title>
-
-    <!-- Simple clean styling -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #fafafa;
-            color: #333;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            color: #003366;
-        }
-        .team-container {
-            display: flex;
-            gap: 40px;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
-        .member {
-            text-align: center;
-            width: 180px;
-        }
-        .member img {
-            width: 160px;
-            height: 160px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 3px solid #ccc;
-        }
-        a {
-            color: #0066cc;
-        }
-        .file-links {
-            margin-top: 15px;
-            padding-left: 20px;
-        }
-        .file-links li {
-            margin-bottom: 8px;
-        }
-        .section {
-            margin-top: 40px;
-        }
-        .summary-box {
-            background: #fff;
-            border-left: 5px solid #003366;
-            padding: 15px 20px;
-            margin-top: 15px;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Quantifying Norovirus Intervention Impact in Restaurants</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #fafafa;
+        line-height: 1.6;
+    }
+    header {
+        background: #2c3e50;
+        color: white;
+        padding: 25px;
+        text-align: center;
+    }
+    h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 5px;
+    }
+    .team {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px;
+    }
+    .member {
+        text-align: center;
+    }
+    .member img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #2c3e50;
+    }
+    .container {
+        width: 85%;
+        margin: auto;
+        padding: 20px;
+        background: white;
+    }
+    img.figure {
+        width: 100%;
+        max-width: 900px;
+        display: block;
+        margin: 10px auto;
+        border: 1px solid #ddd;
+    }
+    .downloads a {
+        display: inline-block;
+        margin-right: 15px;
+        padding: 8px 14px;
+        background: #2c3e50;
+        color: white;
+        border-radius: 6px;
+        text-decoration: none;
+    }
+</style>
 </head>
-
 <body>
 
+<header>
     <h1>Quantifying Norovirus Intervention Impact in Restaurant Outbreaks</h1>
-    <h3>Georgia Institute of Technology</h3>
+    <p>Georgia Tech — Fall 2025</p>
+</header>
 
-    <!-- Team Section -->
-    <div class="section">
-        <h2>Team Members</h2>
-        <div class="team-container">
+<div class="container">
 
-            <div class="member">
-                <img src="images/shrey.png" alt="Shrey Patel">
-                <p><strong>Shrey Patel</strong></p>
-            </div>
-
-            <div class="member">
-                <img src="images/jaiti.jpg" alt="Jaiti Swami">
-                <p><strong>Jaiti Swami</strong></p>
-            </div>
-
-            <div class="member">
-                <img src="images/natasha.jpg" alt="Natasha Kodgi">
-                <p><strong>Natasha Kodgi</strong></p>
-            </div>
-
-        </div>
+<!-- ===================== TEAM ===================== -->
+<h2>👥 Team</h2>
+<div class="team">
+    <div class="member">
+        <img src="images/natasha.png" alt="Natasha">
+        <p><strong>Natasha Kodgi</strong></p>
     </div>
-
-    <!-- Files Section -->
-    <div class="section">
-        <h2>Project Files</h2>
-        <ul class="file-links">
-            <li><a href="files/Final_Report.pdf" target="_blank">📄 Final Report (PDF)</a></li>
-            <li><a href="files/Slides.pdf" target="_blank">📊 Presentation Slides (PDF)</a></li>
-            <li><a href="files/Quantifying_Norovirus.tar.gz" target="_blank">🗂️ Software Package (.tar.gz)</a></li>
-        </ul>
+    <div class="member">
+        <img src="images/shrey.png" alt="Shrey">
+        <p><strong>Shrey Patel</strong></p>
     </div>
-
-    <!-- Summary Section -->
-    <div class="section">
-        <h2>Project Summary</h2>
-        <div class="summary-box">
-            <p>
-                This project develops a stochastic SEIR-type transmission model to quantify norovirus spread
-                in restaurant environments. Using outbreak-size data from the CDC's National Outbreak Reporting
-                System (NORS), the model is calibrated through cross-validation and full-grid parameter search.
-            </p>
-
-            <p>
-                We evaluate two practical mitigation strategies used in retail food service: 
-                (i) excluding symptomatic food workers and 
-                (ii) improving hygiene practices among staff.
-                Sixteen policy scenarios spanning both intervention types and compliance levels
-                are simulated to measure policy effects on outbreak size distributions and extreme-event risk.
-            </p>
-        </div>
+    <div class="member">
+        <img src="images/jaiti.png" alt="Jaiti">
+        <p><strong>Jaiti Swami</strong></p>
     </div>
+</div>
 
-    <!-- Results Section -->
-    <div class="section">
-        <h2>Key Results</h2>
-        <div class="summary-box">
-            <p>
-                The analysis shows that improved hygiene and illness exclusion both reduce outbreak size,
-                with combined interventions offering the strongest mitigation effect. 
-                Strict hygiene with high compliance produces the highest reduction in mean outbreak size,
-                while combined strategies most effectively reduce the probability of large outbreaks
-                (&gt;100 cases).
-            </p>
-        </div>
-    </div>
+<!-- ===================== SUMMARY ===================== -->
+<h2>📌 Project Summary</h2>
+<p>
+    This project develops a <strong>stochastic mechanistic SEIR-type model</strong> to simulate norovirus
+    transmission in a single restaurant. After calibrating the simulator to 
+    <strong>CDC NORS restaurant outbreak data</strong>, we evaluate two public-health policies:
+</p>
+<ul>
+    <li><strong>Illness exclusion</strong> — removing symptomatic food workers from shifts</li>
+    <li><strong>Hand hygiene & glove-use improvement</strong></li>
+</ul>
+<p>
+    We test policy effectiveness under 16 scenarios (various compliance levels and intensities) and 
+    quantify expected reductions in outbreak size, tail risk, and cost-effectiveness.
+</p>
 
+<!-- ===================== DOWNLOADS ===================== -->
+<h2>📂 Downloads</h2>
+<div class="downloads">
+    <a href="Final_Report.pdf">📄 Final Report (PDF)</a>
+    <a href="Presentation.pdf">🎤 Slides (PDF)</a>
+    <a href="quantifying_norovirus.tar.gz">💾 Software Package (tar.gz)</a>
+</div>
+
+<!-- ===================== DATA & METHODS ===================== -->
+<h2>📁 Data & Methods</h2>
+<p>
+    We use a cleaned subset of the CDC National Outbreak Reporting System (NORS), 
+    restricted to <strong>restaurant-associated norovirus outbreaks (confirmed or suspected)</strong> 
+    from 2011–2023. After removing banquet facilities and unresolved etiologies,  
+    <strong>~1,980 outbreaks</strong> remained.
+</p>
+<p>
+    For calibration, the dataset is collapsed to a single-column CSV 
+    <code>NORS_JS1.csv</code> containing only outbreak sizes, since the simulator calibrates directly 
+    to this distribution.
+</p>
+<p>
+    The model is a stochastic SEIR restaurant simulator with:
+</p>
+<ul>
+    <li>Staff: S → E → Ia/Is → R</li>
+    <li>Patron infections via food handling, contact, and food contamination events</li>
+    <li>Daily service shifts and continuous patron turnover</li>
+    <li>Optional exclusion and hygiene interventions</li>
+</ul>
+
+<!-- ===================== RESULTS ===================== -->
+<h2>📊 Results</h2>
+<p>
+    Below are the key findings from our calibrated simulations and 16-scenario policy analysis.
+</p>
+
+<h3>📌 Summary Table (All Scenarios)</h3>
+<img src="images/policy_summary.png" class="figure" alt="Policy Summary Table">
+
+<h3>Figure 1 — Policy Effectiveness Overview</h3>
+<img src="images/Figure1_Policy_Overview.png" class="figure">
+<p>
+    All interventions reduce outbreak size. Strict hygiene and the strict combined policy show the 
+    largest reductions, lowering mean outbreak size by <strong>60–80%</strong>.
+</p>
+
+<h3>Figure 2 — Hygiene Comparison</h3>
+<img src="images/Figure2_Hygiene_Comparison.png" class="figure">
+<p>
+    Strict hygiene clearly outperforms moderate hygiene at all compliance levels, with the biggest 
+    advantage at 100% compliance.
+</p>
+
+<h3>Figure 3 — Policy Interactions</h3>
+<img src="images/Figure3_Policy_Interactions.png" class="figure">
+<p>
+    Combined policies provide the best performance, but effects are slightly <strong>sub-additive</strong>, 
+    indicating hygiene contributes the majority of observed gains.
+</p>
+
+<h3>Figure 4 — Cost Effectiveness</h3>
+<img src="images/Figure4_Cost_Effectiveness.png" class="figure">
+<p>
+    Strict combined hygiene sits on the <strong>Pareto frontier</strong> and yields the highest reduction 
+    per unit cost. Exclusion alone is cheaper but less effective.
+</p>
+
+<h3>Figure 5 — Distributional Impact</h3>
+<img src="images/Figure5_Distribution_Comparisons.png" class="figure">
+<p>
+    All interventions shift probability mass away from extreme tail events. The strict combined 
+    policy reduces the chance of a >100-case outbreak by over <strong>90%</strong>.
+</p>
+
+<!-- ===================== END ===================== -->
+<br><br>
+</div>
 </body>
 </html>
-
