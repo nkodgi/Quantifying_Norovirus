@@ -46,7 +46,7 @@ python3 main.py
 .
 ├── README.md
 ├── requirements.txt
-├── doc/
+├── docs/
 │   ├── poster.pdf
 │   └── Final_Report.pdf
 ├── src/
