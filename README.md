@@ -28,25 +28,12 @@ Each policy is tested across different compliance levels to see how much it can 
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-- Python 3.8+
-
-```bash
-pip install -r requirements.txt
-```
-
-### Installation
+### Installation and Running
 
 ```bash
 git clone <your-repo-url>
-cd src
+cd <your-repo-folder>
 pip install -r requirements.txt
-```
-
-### Running the Model
-
-```bash
 cd src
 python3 main.py
 ```
