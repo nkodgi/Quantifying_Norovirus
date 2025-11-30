@@ -31,22 +31,24 @@ Each policy is tested across different compliance levels to see how much it can 
 ### Prerequisites
 
 - Python 3.8+
-- Required packages: `numpy`, `pandas`, `scipy`, `matplotlib` (or your actual dependencies)
+
+```bash
+pip install -r requirements.txt
+```
 
 ### Installation
 
 ```bash
 git clone <your-repo-url>
-cd norovirus-outbreak-modeling
+cd src
 pip install -r requirements.txt
 ```
 
 ### Running the Model
 
 ```bash
-python simulate_outbreak.py
-python validate_model.py
-python evaluate_interventions.py
+cd src
+python3 main.py
 ```
 
 ---
@@ -57,13 +59,32 @@ python evaluate_interventions.py
 .
 ├── README.md
 ├── requirements.txt
-├── simulate_outbreak.py          # Core stochastic simulation
-├── validate_model.py             # K-fold CV and calibration
-├── evaluate_interventions.py     # Policy testing
-├── data/
-│   └── cdc_nors_data.csv        # Real outbreak data
-└── results/
-    └── outbreak_comparisons.csv  # Intervention results
+├── DOC/
+│   ├── poster.pdf
+│   └── Final_Report.pdf
+├── src/
+│   ├── main.py                     # Full pipeline: calibration → policy analysis
+│   │
+│   ├── simulation.py               # Baseline outbreak simulator (no policy)
+│   ├── calibration.py              # Grid search calibration utilities
+│   ├── validation.py               # K-fold + holdout + full calibration workflow
+│   │
+│   ├── plotting.py                 # Calibration publication plots
+│   ├── metrics.py                  # Extra validation metrics (KS, Wasserstein, etc.)
+│   │
+│   ├── policy_simulation.py        # Policy-enabled outbreak simulator
+│   ├── policy_analysis.py          # 16-scenario policy analysis + Figures 1–5
+│   │
+│   └── NORS_JS1.csv                # Real CDC NORS outbreak data (input)
+│
+└── results/                        # (Optional) Generated outputs
+    ├── Comprehensive_Policy_Summary.csv
+    ├── Figure1_Policy_Overview.png/pdf
+    ├── Figure2_Hygiene_Comparison.png/pdf
+    ├── Figure3_Policy_Interactions.png/pdf
+    ├── Figure4_Cost_Effectiveness.png/pdf
+    └── Figure5_Distribution_Comparisons.png/pdf
+
 ```
 
 ---
