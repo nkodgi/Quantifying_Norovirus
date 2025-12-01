@@ -45,6 +45,10 @@ def create_publication_plots(obs, sim, kfold_results, holdout_ratio):
     ax4.legend()
 
     plt.tight_layout()
+    fig.savefig("Calibration_Figure1_Distributions_CDF_QQ.png",
+                dpi=300, bbox_inches="tight")
+    fig.savefig("Calibration_Figure1_Distributions_CDF_QQ.pdf",
+                bbox_inches="tight")
     plt.show()
 
     # K-fold ratios + holdout
@@ -61,6 +65,6 @@ def create_publication_plots(obs, sim, kfold_results, holdout_ratio):
     axB.set_title("Validation Summary")
 
     plt.tight_layout()
-    fig.savefig("Validation.png", dpi=300, bbox_inches="tight")
-    fig.savefig("Validation.pdf", bbox_inches="tight")
+    fig.savefig("Calibration_Figure2_Validation.png", dpi=300, bbox_inches="tight")
+    fig.savefig("Calibration_Figure2_Validation.pdf", bbox_inches="tight")
     plt.show()
