@@ -61,4 +61,6 @@ def create_publication_plots(obs, sim, kfold_results, holdout_ratio):
     axB.set_title("Validation Summary")
 
     plt.tight_layout()
+    fig.savefig("Calibration_Figure2_Validation.png", dpi=300, bbox_inches="tight")
+    ig.savefig("Calibration_Figure2_Validation.pdf", bbox_inches="tight")
     plt.show()
