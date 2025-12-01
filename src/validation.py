@@ -84,8 +84,7 @@ def step2_holdout_validation(all_sizes):
     print("\n" + "="*70)
     print(" STEP 2: HOLDOUT (FULL GRID) ")
     print("="*70)
-
-    np.random.seed(123)
+    
     n_train = int(len(all_sizes)*0.8)
 
     shuf = np.random.permutation(len(all_sizes))
