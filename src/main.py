@@ -16,6 +16,9 @@ Make sure the following files exist in SRC/:
 """
 
 import pandas as pd
+import numpy as np
+import random
+
 
 # Import modules
 from validation import (
@@ -36,6 +39,9 @@ from policy_analysis import run_complete_analysis
 
 def main():
 
+    np.random.seed(30)
+    random.seed(30)
+    
     print("\n" + "="*70)
     print(" FULL EPIDEMIC PIPELINE: CALIBRATION → POLICY ANALYSIS ")
     print("="*70)
