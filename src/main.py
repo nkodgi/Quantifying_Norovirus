@@ -39,8 +39,8 @@ from policy_analysis import run_complete_analysis
 
 def main():
 
-    np.random.seed(99)
-    random.seed(99)
+    np.random.seed(20)
+    random.seed(20)
     
     print("\n" + "="*70)
     print(" FULL EPIDEMIC PIPELINE: CALIBRATION → POLICY ANALYSIS ")
