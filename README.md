@@ -74,9 +74,3 @@ python3 main.py
 
 ```
 
----
-
-## 🦠➡️📉 Results
-
-Our analysis shows that [add your key findings here!] combined interventions are most effective at reducing outbreak size, with compliance level being a critical factor.
-
