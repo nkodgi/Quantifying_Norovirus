@@ -46,31 +46,35 @@ python3 main.py
 .
 ├── README.md
 ├── requirements.txt
-├── docs/
-│   ├── poster.pdf
-│   └── Final_Report.pdf
-├── src/
-│   ├── main.py                     # Full pipeline: calibration → policy analysis
-│   │
-│   ├── simulation.py               # Baseline outbreak simulator (no policy)
-│   ├── calibration.py              # Grid search calibration utilities
-│   ├── validation.py               # K-fold + holdout + full calibration workflow
-│   │
-│   ├── plotting.py                 # Calibration publication plots
-│   ├── metrics.py                  # Extra validation metrics (KS, Wasserstein, etc.)
-│   │
-│   ├── policy_simulation.py        # Policy-enabled outbreak simulator
-│   ├── policy_analysis.py          # 16-scenario policy analysis + Figures 1–5
-│   │
-│   └── NORS_JS1.csv                # Real CDC NORS outbreak data (input)
 │
-└── results/                        # (Optional) Generated outputs
-    ├── Comprehensive_Policy_Summary.csv
-    ├── Figure1_Policy_Overview.png/pdf
-    ├── Figure2_Hygiene_Comparison.png/pdf
-    ├── Figure3_Policy_Interactions.png/pdf
-    ├── Figure4_Cost_Effectiveness.png/pdf
-    └── Figure5_Distribution_Comparisons.png/pdf
+├── src/                           # All modeling + simulation code
+│   ├── main.py                    # Full pipeline: calibration → policy analysis
+│   ├── simulation.py              # Baseline outbreak simulator (no policy)
+│   ├── calibration.py             # Grid search calibration utilities
+│   ├── validation.py              # K-fold + holdout + full calibration workflow
+│   ├── plotting.py                # Calibration plots
+│   ├── metrics.py                 # Validation metrics (KS, Wasserstein, etc.)
+│   ├── policy_simulation.py       # Policy-enabled outbreak simulator
+│   ├── policy_analysis.py         # 16-scenario analysis + Figures 1–5
+│   └── NORS_JS1.csv               # Cleaned calibration dataset (outbreak sizes only)
+│
+├── results/                       # Auto-generated outputs (optional)
+│   ├── Comprehensive_Policy_Summary.csv
+│   ├── Figure1_Policy_Overview.png
+│   ├── Figure2_Hygiene_Comparison.png
+│   ├── Figure3_Policy_Interactions.png
+│   ├── Figure4_Cost_Effectiveness.png
+│   └── Figure5_Distribution_Comparisons.png
+│
+├── docs/                          # Website + documentation
+│   ├── index.html                 # Website homepage
+│   ├── images/                    # Site assets (figures, team photos, icons)
+│   │     └── (... image files ...)
+│   ├── Epi_Poster.pdf             # Final project poster
+│   ├── Final_Report.pdf           # Full final written report
+│   ├── NORS_20251007.csv          # Original downloaded NORS data
+│   └── NORS_calibration_policy_final.ipynb   # Full calibration + policy notebook
+
 
 ```
 
